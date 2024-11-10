@@ -21,6 +21,7 @@ header, nav, .hero, .products, .order-now, .about {
 header {
     background-color: #e0d4c2;
     padding: 10px 20px;
+    text-align: center;
 }
 
 header h1 {
