@@ -24,7 +24,7 @@ header h1 {
     color: #b97f4d; /* Colore caldo */
 }
 
-/* Sezione Hero */
+//* Sezione Hero */
 .hero {
     background-image: url('hero-image.jpg'); /* Inserisci la tua immagine */
     background-size: cover;
@@ -38,9 +38,8 @@ header h1 {
 .hero-text p {
     font-size: 1.5em;
     color: #fff;
-   
-}
-
+    padding: 10px 20px;
+    border-radius: 5px;
 /* Prodotti */
 .products {
     padding: 40px;
