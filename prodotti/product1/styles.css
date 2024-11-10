@@ -12,7 +12,7 @@ h1, h2 {
     color: #b3804b;
 }
 
-header, nav, .hero, .products, .order-now, .about {
+header, .hero, .products, .order-now, .about {
     text-align: center;
     padding: 20px;
 }
@@ -33,6 +33,7 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
+    justify-content: center; /* Centra gli elementi della nav */
     gap: 10px;
     padding: 10px 20px;
 }
@@ -53,6 +54,10 @@ nav {
     background-position: center;
     color: #fff;
     padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra il testo */
 }
 
 .hero-text {
@@ -147,11 +152,14 @@ nav {
     width: 80%;
     max-width: 400px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .carousel-image {
     width: 80%;
+    margin: 0 auto; /* Centra l'immagine */
     border-radius: 10px;
+    display: block; /* Garantisce che l'immagine sia centrata */
 }
 
 .prev, .next {
