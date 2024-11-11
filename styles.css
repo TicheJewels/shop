@@ -38,6 +38,7 @@ header h1 {
 .hero-text p {
     font-size: 1.5em;
     color: #fff;
+    align-items: center;
    
 }
 
