@@ -156,7 +156,7 @@ nav {
 }
 
 .carousel-image {
-    width: 80%;
+    width: 85%;
     margin: 0 auto; /* Centra l'immagine */
     border-radius: 10px;
     display: block; /* Garantisce che l'immagine sia centrata */
@@ -197,7 +197,7 @@ nav {
 
 .product-details p {
     color: #666;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 .price {
