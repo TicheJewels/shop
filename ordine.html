@@ -63,7 +63,7 @@
                     email: form.email.value,
                 };
 
-                // Invio dei dati allo script di Google Apps
+                 // Invio dei dati allo script di Google Apps
                 fetch('https://script.google.com/macros/s/AKfycbwg5iHq2baKUD_vvUv_Rt4a19qLp5nEXMR_UnzCw6zRhI2GJVFky2FLFvfejfH8GfwPQw/exec', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -78,7 +78,6 @@
                         alert("Errore nel salvataggio dell'ordine.");
                     }
                 })
-                .catch(error => console.error("Errore:", error));
             } else {
                 form.reportValidity();
             }
