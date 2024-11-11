@@ -27,7 +27,7 @@ header h1 {
 /* Sezione Hero */
 .hero {
     background-image: url('hero-image.jpg'); /* Inserisci la tua immagine */
-    background-size: cover;
+    background-size: 90%;
     background-position: center;
     height: 300px;
     display: flex;
