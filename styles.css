@@ -32,10 +32,12 @@ header h1 {
     background-repeat: no-repeat;
     padding: 20px; /* Aggiunge margini interni per ridurre l'area visibile */
     height: 260px; /* Eventualmente riduci l'altezza */
+    margin-top: 20px; /* Aggiunge margine sopra */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 15px; /* Arrotonda i bordi */
 }
 
 .hero-text p {
