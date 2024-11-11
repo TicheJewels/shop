@@ -149,14 +149,14 @@ nav {
 
 .carousel {
     position: relative;
-    width: 90%;
+    width: 85%;
     max-width: 400px;
     text-align: center;
     margin: 0 auto;
 }
 
 .carousel-image {
-    width: 90%;
+    width: 85%;
     margin: 0 auto; /* Centra l'immagine */
     border-radius: 10px;
     display: block; /* Garantisce che l'immagine sia centrata */
