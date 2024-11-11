@@ -64,7 +64,7 @@
                 };
 
                 // Invio dei dati allo script di Google Apps
-                fetch('URL_DEL_TUO_APPS_SCRIPT', {
+                fetch('https://script.google.com/macros/s/AKfycbwg5iHq2baKUD_vvUv_Rt4a19qLp5nEXMR_UnzCw6zRhI2GJVFky2FLFvfejfH8GfwPQw/exec', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
