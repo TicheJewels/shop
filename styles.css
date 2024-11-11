@@ -37,7 +37,7 @@ header h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 15px; /* Arrotonda i bordi */
+    border-radius: 30px; /* Arrotonda i bordi */
 }
 
 .hero-text p {
