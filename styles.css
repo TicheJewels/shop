@@ -32,7 +32,7 @@ header h1 {
     background-repeat: no-repeat;
     padding: 20px; /* Aggiunge margini interni per ridurre l'area visibile */
     height: 260px; /* Eventualmente riduci l'altezza */
-    margin-top: 20px; /* Aggiunge margine sopra */
+    margin-top: 60px; /* Aggiunge margine sopra */
     display: flex;
     justify-content: center;
     align-items: center;
