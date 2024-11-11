@@ -26,18 +26,14 @@ header h1 {
 
 /* Sezione Hero */
 .hero {
-    background-image: url('hero-image.jpg');
-    background-size: contain; /* Mantiene l'immagine contenuta */
+    background-image: url('hero-image.jpg'); /* Inserisci la tua immagine */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px; /* Aggiunge margini interni per ridurre l'area visibile */
-    height: 260px; /* Eventualmente riduci l'altezza */
-    margin-top: 60px; /* Aggiunge margine sopra */
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 30px; /* Arrotonda i bordi */
 }
 
 .hero-text p {
